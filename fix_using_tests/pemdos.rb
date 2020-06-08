@@ -2,7 +2,7 @@
 
 def snake_it_up(string = "string")
   if string[0] == "s"
-    "ssssssssss + #{string}"
+    "ssssssssss" + string
   else
     string
   end
